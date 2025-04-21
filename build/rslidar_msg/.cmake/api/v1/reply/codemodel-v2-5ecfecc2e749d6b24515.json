@@ -1,0 +1,215 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ed2621e7cc1c994ea710.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "rslidar_msg__py",
+					"jsonFile" : "directory-rslidar_msg__py-21a2203f39928c6df96b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg/rslidar_msg__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rslidar_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg-a847ddea29c47766770f.json",
+					"name" : "rslidar_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__cpp-4def9031570c69f8ef52.json",
+					"name" : "rslidar_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rslidar_msg__py::@c80b5731effdf274c015",
+					"jsonFile" : "target-rslidar_msg__py-233bb392ab25777f04c8.json",
+					"name" : "rslidar_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__python-816aa379b96c07f69997.json",
+					"name" : "rslidar_msg__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_generator_c-2d1c99daaa2679fd590d.json",
+					"name" : "rslidar_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_c-2e68e42b35f6e3a5f0cb.json",
+					"name" : "rslidar_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_c__pyext-1794dbbaef43205be7ba.json",
+					"name" : "rslidar_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_cpp-91bf91abb31d828c4906.json",
+					"name" : "rslidar_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_fastrtps_c-334eba544f7a9f0dc3ad.json",
+					"name" : "rslidar_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_fastrtps_c__pyext-77c9ab1072ca7ec7dd3c.json",
+					"name" : "rslidar_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_fastrtps_cpp-5b47210f1b75606da749.json",
+					"name" : "rslidar_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_introspection_c-dc248f0102a61da87f25.json",
+					"name" : "rslidar_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_introspection_c__pyext-e50338546d0271fbf680.json",
+					"name" : "rslidar_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg__rosidl_typesupport_introspection_cpp-afb1953ba89f1826c8f6.json",
+					"name" : "rslidar_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rslidar_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rslidar_msg_uninstall-e513f9f57d2bd7f97c49.json",
+					"name" : "rslidar_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e28c6fe0dfa59f0e1737.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg",
+		"source" : "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/src/rslidar_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

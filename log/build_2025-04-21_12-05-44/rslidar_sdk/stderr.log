@@ -1,0 +1,47 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[0m=============================================================[0m
+[0m-- POINT_TYPE is XYZI[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- ROS Not Found. ROS Support is turned Off.[0m
+[0m=============================================================[0m
+[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:8 (find_package)
+  /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+  CMakeLists.txt:130 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m=============================================================[0m
+[0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[0m=============================================================[0m
+[0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+[0m=============================================================[0m
+[0m-- CMake run for UNIX GNU Compiler[0m
+[0m=============================================================[0m
+[0m=============================================================[0m
+[0m-- rs_driver Version : v1.5.17[0m
+[0m=============================================================[0m

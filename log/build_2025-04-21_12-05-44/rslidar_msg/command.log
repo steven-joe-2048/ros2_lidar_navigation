@@ -1,0 +1,4 @@
+Invoking command in '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg -- -j48 -l48
+Invoked command in '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --build /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg -- -j48 -l48
+Invoking command in '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg
+Invoked command in '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/local/bin/cmake --install /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg

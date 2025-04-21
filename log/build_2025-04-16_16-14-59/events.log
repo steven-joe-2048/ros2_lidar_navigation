@@ -1,0 +1,703 @@
+[0.000000] (-) TimerEvent: {}
+[0.000989] (rslidar_msg) JobQueued: {'identifier': 'rslidar_msg', 'dependencies': OrderedDict()}
+[0.001080] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg')])}
+[0.001195] (rslidar_msg) JobStarted: {'identifier': 'rslidar_msg'}
+[0.026846] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'cmake'}
+[0.028040] (rslidar_msg) Command: {'cmd': ['/usr/local/bin/cmake', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/src/rslidar_msg', '-DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'caros'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1863015'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib'), ('HOME', '/home/caros'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/caros/DEV/ROS_DEV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('CPLUS_INCLUDE_PATH', '/usr/local/include/eigen3:'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'caros'), ('JOURNAL_STREAM', '8:37008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'caros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/caros-P920:@/tmp/.ICE-unix/2640,unix/caros-P920:/tmp/.ICE-unix/2640'), ('INVOCATION_ID', '487707bb09c8451fb1908157f3fc8b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b3ef2e_6a72_4f9d_ad7c_7cdce56449fb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/tmp/ssh-pja3QrrYMAV8/agent.1863014'), ('AMENT_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/caros/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/caros/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[0.142382] (-) TimerEvent: {}
+[0.247649] (-) TimerEvent: {}
+[0.348189] (-) TimerEvent: {}
+[0.383658] (rslidar_msg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.384274] (rslidar_msg) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.384494] (rslidar_msg) StderrLine: {'line': b'  CMake.\n'}
+[0.384695] (rslidar_msg) StderrLine: {'line': b'\n'}
+[0.384870] (rslidar_msg) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.385044] (rslidar_msg) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.385215] (rslidar_msg) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.385381] (rslidar_msg) StderrLine: {'line': b'\n'}
+[0.385544] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[0.448380] (-) TimerEvent: {}
+[0.548952] (-) TimerEvent: {}
+[0.649508] (-) TimerEvent: {}
+[0.750009] (-) TimerEvent: {}
+[0.850572] (-) TimerEvent: {}
+[0.951118] (-) TimerEvent: {}
+[1.051641] (-) TimerEvent: {}
+[1.152208] (-) TimerEvent: {}
+[1.252762] (-) TimerEvent: {}
+[1.353339] (-) TimerEvent: {}
+[1.376743] (rslidar_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[1.453672] (-) TimerEvent: {}
+[1.554167] (-) TimerEvent: {}
+[1.654741] (-) TimerEvent: {}
+[1.670850] (rslidar_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[1.713002] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.754875] (-) TimerEvent: {}
+[1.855426] (-) TimerEvent: {}
+[1.897805] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.932313] (rslidar_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.948178] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.949874] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.955584] (-) TimerEvent: {}
+[1.997560] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.055791] (-) TimerEvent: {}
+[2.150196] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.155951] (-) TimerEvent: {}
+[2.185539] (rslidar_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.186126] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.186419] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.251304] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[2.256130] (-) TimerEvent: {}
+[2.269410] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[2.269751] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.269957] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.270141] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.270468] (rslidar_msg) StderrLine: {'line': b'\n'}
+[2.270641] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.270826] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[2.270991] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[2.271157] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[2.271322] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)\n'}
+[2.271512] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)\n'}
+[2.271679] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:19 (find_package)\n'}
+[2.271846] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.272012] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[2.317168] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[2.317670] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.356299] (-) TimerEvent: {}
+[2.456796] (-) TimerEvent: {}
+[2.557316] (-) TimerEvent: {}
+[2.644024] (rslidar_msg) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[2.657484] (-) TimerEvent: {}
+[2.753362] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.757648] (-) TimerEvent: {}
+[2.782690] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.857848] (-) TimerEvent: {}
+[2.958399] (-) TimerEvent: {}
+[3.058972] (-) TimerEvent: {}
+[3.159553] (-) TimerEvent: {}
+[3.188611] (rslidar_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[3.243835] (rslidar_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include\n'}
+[3.259681] (-) TimerEvent: {}
+[3.360268] (-) TimerEvent: {}
+[3.372723] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.460450] (-) TimerEvent: {}
+[3.461934] (rslidar_msg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.548858] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.551314] (rslidar_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.552304] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.560598] (-) TimerEvent: {}
+[3.661074] (-) TimerEvent: {}
+[3.690722] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.691220] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.761267] (-) TimerEvent: {}
+[3.817574] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.818070] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.861454] (-) TimerEvent: {}
+[3.961924] (-) TimerEvent: {}
+[3.969046] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.973021] (rslidar_msg) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[4.062118] (-) TimerEvent: {}
+[4.162681] (-) TimerEvent: {}
+[4.216511] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[4.234124] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:40 (find_package):\n'}
+[4.234450] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.234672] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.234863] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.235038] (rslidar_msg) StderrLine: {'line': b'\n'}
+[4.235208] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.235375] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[4.235542] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[4.235708] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.235873] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.262792] (-) TimerEvent: {}
+[4.274985] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10")\n'}
+[4.362974] (-) TimerEvent: {}
+[4.463421] (-) TimerEvent: {}
+[4.508794] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[4.563568] (-) TimerEvent: {}
+[4.664059] (-) TimerEvent: {}
+[4.732320] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.764172] (-) TimerEvent: {}
+[4.804733] (rslidar_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.811469] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[4.811675] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.811765] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.811841] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.811919] (rslidar_msg) StderrLine: {'line': b'\n'}
+[4.811997] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.812087] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.812145] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.812201] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[4.812256] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.812311] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.853295] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5")\n'}
+[4.864297] (-) TimerEvent: {}
+[4.868595] (rslidar_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[4.877607] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:45 (find_package):\n'}
+[4.878045] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.878383] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.878717] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.879044] (rslidar_msg) StderrLine: {'line': b'\n'}
+[4.879312] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.879569] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[4.879803] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.879978] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.880148] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[4.880315] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.880480] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.923823] (rslidar_msg) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:133 (find_package):\n'}
+[4.924297] (rslidar_msg) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[4.924624] (rslidar_msg) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[4.924937] (rslidar_msg) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[4.925236] (rslidar_msg) StderrLine: {'line': b'\n'}
+[4.925550] (rslidar_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.925856] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[4.926167] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[4.926497] (rslidar_msg) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[4.926858] (rslidar_msg) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[4.927170] (rslidar_msg) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[4.927478] (rslidar_msg) StderrLine: {'line': b'\x1b[0m\n'}
+[4.943166] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5")\n'}
+[4.943551] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[4.943684] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[4.943801] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[4.964427] (-) TimerEvent: {}
+[4.986681] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so\n'}
+[5.064599] (-) TimerEvent: {}
+[5.126137] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.164716] (-) TimerEvent: {}
+[5.210815] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.237371] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.246366] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.250383] (rslidar_msg) StdoutLine: {'line': b'-- Configuring done (4.9s)\n'}
+[5.264878] (-) TimerEvent: {}
+[5.320480] (rslidar_msg) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.332114] (rslidar_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg\n'}
+[5.344476] (rslidar_msg) CommandEnded: {'returncode': 0}
+[5.346294] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'build'}
+[5.347480] (rslidar_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg', '--', '-j48', '-l48'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'caros'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1863015'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib'), ('HOME', '/home/caros'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/caros/DEV/ROS_DEV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('CPLUS_INCLUDE_PATH', '/usr/local/include/eigen3:'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'caros'), ('JOURNAL_STREAM', '8:37008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'caros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/caros-P920:@/tmp/.ICE-unix/2640,unix/caros-P920:/tmp/.ICE-unix/2640'), ('INVOCATION_ID', '487707bb09c8451fb1908157f3fc8b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b3ef2e_6a72_4f9d_ad7c_7cdce56449fb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/tmp/ssh-pja3QrrYMAV8/agent.1863014'), ('AMENT_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/caros/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/caros/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[5.365052] (-) TimerEvent: {}
+[5.395934] (rslidar_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.408063] (rslidar_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.465220] (-) TimerEvent: {}
+[5.565690] (-) TimerEvent: {}
+[5.666148] (-) TimerEvent: {}
+[5.721129] (rslidar_msg) StdoutLine: {'line': b'[  6%] Built target rslidar_msg__cpp\n'}
+[5.730962] (rslidar_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/detail/rslidar_packet__functions.c.o\x1b[0m\n'}
+[5.732584] (rslidar_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.733023] (rslidar_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.734051] (rslidar_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.766314] (-) TimerEvent: {}
+[5.866810] (-) TimerEvent: {}
+[5.965366] (rslidar_msg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[5.966909] (-) TimerEvent: {}
+[6.067308] (-) TimerEvent: {}
+[6.167782] (-) TimerEvent: {}
+[6.268295] (-) TimerEvent: {}
+[6.283098] (rslidar_msg) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library librslidar_msg__rosidl_generator_c.so\x1b[0m\n'}
+[6.358691] (rslidar_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[6.368522] (rslidar_msg) StdoutLine: {'line': b'[ 29%] Built target rslidar_msg__rosidl_generator_c\n'}
+[6.368893] (-) TimerEvent: {}
+[6.372362] (rslidar_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/dds_fastrtps/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[6.380022] (rslidar_msg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.380564] (rslidar_msg) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[6.457206] (rslidar_msg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.469083] (-) TimerEvent: {}
+[6.541176] (rslidar_msg) StdoutLine: {'line': b'[ 41%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp\n'}
+[6.569215] (-) TimerEvent: {}
+[6.604248] (rslidar_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[6.622274] (rslidar_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/detail/rslidar_packet__type_support.c.o\x1b[0m\n'}
+[6.646919] (rslidar_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.662017] (rslidar_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.669367] (-) TimerEvent: {}
+[6.682850] (rslidar_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.703892] (rslidar_msg) StdoutLine: {'line': b'[ 58%] Built target rslidar_msg__rosidl_typesupport_cpp\n'}
+[6.711441] (rslidar_msg) StdoutLine: {'line': b'[ 58%] Built target rslidar_msg__rosidl_typesupport_introspection_c\n'}
+[6.713345] (rslidar_msg) StdoutLine: {'line': b'[ 58%] Built target rslidar_msg__rosidl_typesupport_c\n'}
+[6.769527] (-) TimerEvent: {}
+[6.866561] (rslidar_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.869686] (-) TimerEvent: {}
+[6.970159] (-) TimerEvent: {}
+[7.015358] (rslidar_msg) StdoutLine: {'line': b'[ 61%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[7.026266] (rslidar_msg) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.070334] (-) TimerEvent: {}
+[7.170793] (-) TimerEvent: {}
+[7.268114] (rslidar_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/detail/rslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[7.270923] (-) TimerEvent: {}
+[7.371365] (-) TimerEvent: {}
+[7.471873] (-) TimerEvent: {}
+[7.572323] (-) TimerEvent: {}
+[7.628456] (rslidar_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.672515] (-) TimerEvent: {}
+[7.747577] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c\n'}
+[7.769976] (rslidar_msg) StdoutLine: {'line': b'[ 70%] Built target rslidar_msg\n'}
+[7.772680] (-) TimerEvent: {}
+[7.793199] (rslidar_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.872869] (-) TimerEvent: {}
+[7.973371] (-) TimerEvent: {}
+[8.073844] (-) TimerEvent: {}
+[8.174360] (-) TimerEvent: {}
+[8.274803] (-) TimerEvent: {}
+[8.375247] (-) TimerEvent: {}
+[8.475772] (-) TimerEvent: {}
+[8.575151] (rslidar_msg) StdoutLine: {'line': b'[ 74%] Built target rslidar_msg__py\n'}
+[8.575860] (-) TimerEvent: {}
+[8.597369] (rslidar_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__python.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o\x1b[0m\n'}
+[8.676021] (-) TimerEvent: {}
+[8.776547] (-) TimerEvent: {}
+[8.877103] (-) TimerEvent: {}
+[8.930995] (rslidar_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/librslidar_msg__python.so\x1b[0m\n'}
+[8.977287] (-) TimerEvent: {}
+[8.986868] (rslidar_msg) StdoutLine: {'line': b'[ 80%] Built target rslidar_msg__python\n'}
+[9.009399] (rslidar_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[9.011232] (rslidar_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[9.012666] (rslidar_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[9.077478] (-) TimerEvent: {}
+[9.113534] (rslidar_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.115082] (rslidar_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.116673] (rslidar_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[9.167790] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_c__pyext\n'}
+[9.171065] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[9.177646] (-) TimerEvent: {}
+[9.205795] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[9.216657] (rslidar_msg) CommandEnded: {'returncode': 0}
+[9.218731] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'install'}
+[9.232288] (rslidar_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'caros'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1863015'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib'), ('HOME', '/home/caros'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/caros/DEV/ROS_DEV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('CPLUS_INCLUDE_PATH', '/usr/local/include/eigen3:'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'caros'), ('JOURNAL_STREAM', '8:37008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'caros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/caros-P920:@/tmp/.ICE-unix/2640,unix/caros-P920:/tmp/.ICE-unix/2640'), ('INVOCATION_ID', '487707bb09c8451fb1908157f3fc8b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b3ef2e_6a72_4f9d_ad7c_7cdce56449fb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/tmp/ssh-pja3QrrYMAV8/agent.1863014'), ('AMENT_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/caros/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/caros/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[9.240438] (rslidar_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.240882] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg\n'}
+[9.241172] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg\n'}
+[9.241456] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[9.241642] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.h\n'}
+[9.241904] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail\n'}
+[9.242098] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__functions.h\n'}
+[9.242359] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__struct.h\n'}
+[9.242546] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.h\n'}
+[9.242800] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__functions.c\n'}
+[9.243024] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.243259] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh\n'}
+[9.243494] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv\n'}
+[9.243740] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so\n'}
+[9.244186] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so" to ""\n'}
+[9.244472] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg\n'}
+[9.244685] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[9.244858] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail\n'}
+[9.245035] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[9.245211] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.245483] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[9.245668] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.245848] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg\n'}
+[9.246023] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[9.246196] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail\n'}
+[9.246429] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/dds_fastrtps\n'}
+[9.246764] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.246997] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.247178] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.247358] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.247536] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg\n'}
+[9.247711] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[9.247884] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail\n'}
+[9.248056] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.c\n'}
+[9.248233] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[9.248474] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.248837] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so\n'}
+[9.249060] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.249247] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so\n'}
+[9.249424] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so" to ""\n'}
+[9.249603] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg\n'}
+[9.249777] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[9.249954] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail\n'}
+[9.250129] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__traits.hpp\n'}
+[9.250306] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__struct.hpp\n'}
+[9.250481] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.hpp\n'}
+[9.250671] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__builder.hpp\n'}
+[9.250993] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[9.251170] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.hpp\n'}
+[9.251664] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg\n'}
+[9.251849] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[9.252016] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail\n'}
+[9.252184] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp\n'}
+[9.252354] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/include/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.252522] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[9.252690] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.252858] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so\n'}
+[9.253038] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[9.253205] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh\n'}
+[9.253371] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv\n'}
+[9.253536] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/__init__.py\n'}
+[9.277817] (-) TimerEvent: {}
+[9.298842] (rslidar_msg) StdoutLine: {'line': b"Compiling '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/__init__.py'...\n"}
+[9.303415] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg\n'}
+[9.303985] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg/_rslidar_packet.py\n'}
+[9.304370] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg/__init__.py\n'}
+[9.304580] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/msg/_rslidar_packet_s.c\n'}
+[9.304821] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.305258] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.305587] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.306308] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.306586] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[9.307500] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[9.307781] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__python.so\n'}
+[9.308290] (rslidar_msg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/librslidar_msg__python.so" to ""\n'}
+[9.308549] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl\n'}
+[9.308806] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg\n'}
+[9.309181] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg\n'}
+[9.309547] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg\n'}
+[9.309835] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh\n'}
+[9.310110] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv\n'}
+[9.310385] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/path.sh\n'}
+[9.310677] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/environment/path.dsv\n'}
+[9.310960] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/local_setup.bash\n'}
+[9.311231] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/local_setup.sh\n'}
+[9.311493] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/local_setup.zsh\n'}
+[9.311756] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/local_setup.dsv\n'}
+[9.312023] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/package.dsv\n'}
+[9.312376] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg\n'}
+[9.312770] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cExport.cmake\n'}
+[9.313076] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.313400] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.313692] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.314013] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake\n'}
+[9.314303] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.314719] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_generator_cppExport.cmake\n'}
+[9.314994] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.315237] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.315479] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake\n'}
+[9.315738] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.316003] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[9.316191] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.316431] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.316616] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.316851] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.317149] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.317328] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.317506] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake\n'}
+[9.317683] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake\n'}
+[9.317917] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/package.xml\n'}
+[9.320219] (rslidar_msg) CommandEnded: {'returncode': 0}
+[9.379122] (-) TimerEvent: {}
+[9.419991] (rslidar_msg) JobEnded: {'identifier': 'rslidar_msg', 'rc': 0}
+[9.422259] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[9.443749] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'cmake'}
+[9.445296] (rslidar_sdk) Command: {'cmd': ['/usr/local/bin/cmake', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/src/rslidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'caros'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1863015'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib'), ('HOME', '/home/caros'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/caros/DEV/ROS_DEV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('CPLUS_INCLUDE_PATH', '/usr/local/include/eigen3:'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'caros'), ('JOURNAL_STREAM', '8:37008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'caros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/caros-P920:@/tmp/.ICE-unix/2640,unix/caros-P920:/tmp/.ICE-unix/2640'), ('INVOCATION_ID', '487707bb09c8451fb1908157f3fc8b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b3ef2e_6a72_4f9d_ad7c_7cdce56449fb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/tmp/ssh-pja3QrrYMAV8/agent.1863014'), ('AMENT_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/caros/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/caros/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[9.455625] (rslidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[9.455997] (rslidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[9.456203] (rslidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[9.456381] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[9.456549] (rslidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[9.456716] (rslidar_sdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[9.456877] (rslidar_sdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[9.457038] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[9.457199] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[9.479287] (-) TimerEvent: {}
+[9.566702] (rslidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[9.579448] (-) TimerEvent: {}
+[9.679919] (-) TimerEvent: {}
+[9.685741] (rslidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[9.706835] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.780123] (-) TimerEvent: {}
+[9.841742] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.877964] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.878418] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.878724] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.880197] (-) TimerEvent: {}
+[9.904159] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.980459] (-) TimerEvent: {}
+[10.057953] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[10.080626] (-) TimerEvent: {}
+[10.097220] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[10.097636] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[10.098117] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[10.110806] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[10.111146] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- POINT_TYPE is XYZI\x1b[0m\n'}
+[10.111342] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[10.128842] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[10.129169] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS Not Found. ROS Support is turned Off.\x1b[0m\n'}
+[10.129368] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[10.133104] (rslidar_sdk) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/foxy/share/ament_cmake_core/cmake/core/python.cmake:22 (find_package):\n'}
+[10.133428] (rslidar_sdk) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[10.133660] (rslidar_sdk) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[10.133842] (rslidar_sdk) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[10.134014] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[10.134180] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.134346] (rslidar_sdk) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/core/all.cmake:53 (include)\n'}
+[10.134508] (rslidar_sdk) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_core-extras.cmake:17 (include)\n'}
+[10.134692] (rslidar_sdk) StderrLine: {'line': b'  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)\n'}
+[10.134865] (rslidar_sdk) StderrLine: {'line': b'  /opt/ros/foxy/share/rclcpp/cmake/ament_cmake_export_include_directories-extras.cmake:8 (find_package)\n'}
+[10.135029] (rslidar_sdk) StderrLine: {'line': b'  /opt/ros/foxy/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)\n'}
+[10.135196] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:130 (find_package)\n'}
+[10.135360] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.135524] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[10.176484] (rslidar_sdk) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")\n'}
+[10.176933] (rslidar_sdk) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.180794] (-) TimerEvent: {}
+[10.281250] (-) TimerEvent: {}
+[10.381757] (-) TimerEvent: {}
+[10.463535] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.470811] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[10.481919] (-) TimerEvent: {}
+[10.582381] (-) TimerEvent: {}
+[10.680549] (rslidar_sdk) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")\n'}
+[10.682543] (-) TimerEvent: {}
+[10.729276] (rslidar_sdk) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include\n'}
+[10.782759] (-) TimerEvent: {}
+[10.830173] (rslidar_sdk) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.882924] (-) TimerEvent: {}
+[10.889653] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[10.892325] (rslidar_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.893109] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.983077] (-) TimerEvent: {}
+[11.031820] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[11.032302] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[11.083219] (-) TimerEvent: {}
+[11.159865] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[11.160355] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[11.183340] (-) TimerEvent: {}
+[11.283853] (-) TimerEvent: {}
+[11.311128] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[11.315007] (rslidar_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE\n'}
+[11.384029] (-) TimerEvent: {}
+[11.484540] (-) TimerEvent: {}
+[11.485616] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[11.485921] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- ROS2 Found. ROS2 Support is turned On.\x1b[0m\n'}
+[11.486111] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[11.504351] (rslidar_sdk) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[11.584740] (-) TimerEvent: {}
+[11.680927] (rslidar_sdk) StdoutLine: {'line': b'-- Found rslidar_msg: 0.0.0 (/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/share/rslidar_msg/cmake)\n'}
+[11.684897] (-) TimerEvent: {}
+[11.739950] (rslidar_sdk) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at src/rs_driver/CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[11.740368] (rslidar_sdk) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[11.740572] (rslidar_sdk) StderrLine: {'line': b'  CMake.\n'}
+[11.740747] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[11.740917] (rslidar_sdk) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[11.741104] (rslidar_sdk) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[11.741278] (rslidar_sdk) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[11.741451] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[11.741619] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m\n'}
+[11.741789] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[11.741962] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- CMake run for UNIX GNU Compiler\x1b[0m\n'}
+[11.742132] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[11.742416] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[11.742579] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m-- rs_driver Version : v1.5.17\x1b[0m\n'}
+[11.742761] (rslidar_sdk) StderrLine: {'line': b'\x1b[0m=============================================================\x1b[0m\n'}
+[11.785068] (-) TimerEvent: {}
+[11.829407] (rslidar_sdk) StdoutLine: {'line': b'-- Configuring done (2.4s)\n'}
+[11.853769] (rslidar_sdk) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[11.856920] (rslidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk\n'}
+[11.870626] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[11.875090] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'build'}
+[11.875550] (rslidar_sdk) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk', '--', '-j48', '-l48'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'caros'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1863015'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib'), ('HOME', '/home/caros'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/caros/DEV/ROS_DEV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('CPLUS_INCLUDE_PATH', '/usr/local/include/eigen3:'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'caros'), ('JOURNAL_STREAM', '8:37008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'caros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/caros-P920:@/tmp/.ICE-unix/2640,unix/caros-P920:/tmp/.ICE-unix/2640'), ('INVOCATION_ID', '487707bb09c8451fb1908157f3fc8b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b3ef2e_6a72_4f9d_ad7c_7cdce56449fb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/tmp/ssh-pja3QrrYMAV8/agent.1863014'), ('AMENT_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/caros/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/caros/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[11.885198] (-) TimerEvent: {}
+[11.929812] (rslidar_sdk) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o\x1b[0m\n'}
+[11.930291] (rslidar_sdk) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o\x1b[0m\n'}
+[11.985390] (-) TimerEvent: {}
+[12.085919] (-) TimerEvent: {}
+[12.186430] (-) TimerEvent: {}
+[12.286975] (-) TimerEvent: {}
+[12.387473] (-) TimerEvent: {}
+[12.487964] (-) TimerEvent: {}
+[12.588449] (-) TimerEvent: {}
+[12.689009] (-) TimerEvent: {}
+[12.789550] (-) TimerEvent: {}
+[12.890094] (-) TimerEvent: {}
+[12.990635] (-) TimerEvent: {}
+[13.091185] (-) TimerEvent: {}
+[13.191727] (-) TimerEvent: {}
+[13.292268] (-) TimerEvent: {}
+[13.392813] (-) TimerEvent: {}
+[13.493374] (-) TimerEvent: {}
+[13.593919] (-) TimerEvent: {}
+[13.694463] (-) TimerEvent: {}
+[13.794978] (-) TimerEvent: {}
+[13.895475] (-) TimerEvent: {}
+[13.995964] (-) TimerEvent: {}
+[14.096460] (-) TimerEvent: {}
+[14.196953] (-) TimerEvent: {}
+[14.297439] (-) TimerEvent: {}
+[14.397926] (-) TimerEvent: {}
+[14.498418] (-) TimerEvent: {}
+[14.598968] (-) TimerEvent: {}
+[14.699469] (-) TimerEvent: {}
+[14.799957] (-) TimerEvent: {}
+[14.900496] (-) TimerEvent: {}
+[15.001038] (-) TimerEvent: {}
+[15.101584] (-) TimerEvent: {}
+[15.202076] (-) TimerEvent: {}
+[15.302573] (-) TimerEvent: {}
+[15.403078] (-) TimerEvent: {}
+[15.503587] (-) TimerEvent: {}
+[15.604083] (-) TimerEvent: {}
+[15.704615] (-) TimerEvent: {}
+[15.805156] (-) TimerEvent: {}
+[15.905649] (-) TimerEvent: {}
+[16.006129] (-) TimerEvent: {}
+[16.106627] (-) TimerEvent: {}
+[16.207131] (-) TimerEvent: {}
+[16.307620] (-) TimerEvent: {}
+[16.408132] (-) TimerEvent: {}
+[16.508668] (-) TimerEvent: {}
+[16.609214] (-) TimerEvent: {}
+[16.709769] (-) TimerEvent: {}
+[16.810303] (-) TimerEvent: {}
+[16.910804] (-) TimerEvent: {}
+[17.011290] (-) TimerEvent: {}
+[17.111778] (-) TimerEvent: {}
+[17.212316] (-) TimerEvent: {}
+[17.312800] (-) TimerEvent: {}
+[17.413297] (-) TimerEvent: {}
+[17.513780] (-) TimerEvent: {}
+[17.614324] (-) TimerEvent: {}
+[17.714852] (-) TimerEvent: {}
+[17.815341] (-) TimerEvent: {}
+[17.915821] (-) TimerEvent: {}
+[18.016298] (-) TimerEvent: {}
+[18.116778] (-) TimerEvent: {}
+[18.217328] (-) TimerEvent: {}
+[18.317792] (-) TimerEvent: {}
+[18.418129] (-) TimerEvent: {}
+[18.518500] (-) TimerEvent: {}
+[18.618881] (-) TimerEvent: {}
+[18.719279] (-) TimerEvent: {}
+[18.819738] (-) TimerEvent: {}
+[18.920227] (-) TimerEvent: {}
+[19.020721] (-) TimerEvent: {}
+[19.121230] (-) TimerEvent: {}
+[19.221712] (-) TimerEvent: {}
+[19.322157] (-) TimerEvent: {}
+[19.422582] (-) TimerEvent: {}
+[19.523042] (-) TimerEvent: {}
+[19.623478] (-) TimerEvent: {}
+[19.724033] (-) TimerEvent: {}
+[19.824534] (-) TimerEvent: {}
+[19.925011] (-) TimerEvent: {}
+[20.025473] (-) TimerEvent: {}
+[20.125907] (-) TimerEvent: {}
+[20.226352] (-) TimerEvent: {}
+[20.326792] (-) TimerEvent: {}
+[20.427242] (-) TimerEvent: {}
+[20.527733] (-) TimerEvent: {}
+[20.628220] (-) TimerEvent: {}
+[20.728734] (-) TimerEvent: {}
+[20.829214] (-) TimerEvent: {}
+[20.929733] (-) TimerEvent: {}
+[21.030223] (-) TimerEvent: {}
+[21.130732] (-) TimerEvent: {}
+[21.231217] (-) TimerEvent: {}
+[21.331769] (-) TimerEvent: {}
+[21.432243] (-) TimerEvent: {}
+[21.532729] (-) TimerEvent: {}
+[21.633184] (-) TimerEvent: {}
+[21.733636] (-) TimerEvent: {}
+[21.834103] (-) TimerEvent: {}
+[21.934605] (-) TimerEvent: {}
+[22.035105] (-) TimerEvent: {}
+[22.135522] (-) TimerEvent: {}
+[22.235945] (-) TimerEvent: {}
+[22.336369] (-) TimerEvent: {}
+[22.436793] (-) TimerEvent: {}
+[22.537225] (-) TimerEvent: {}
+[22.637673] (-) TimerEvent: {}
+[22.738110] (-) TimerEvent: {}
+[22.838545] (-) TimerEvent: {}
+[22.939015] (-) TimerEvent: {}
+[23.039518] (-) TimerEvent: {}
+[23.140064] (-) TimerEvent: {}
+[23.240548] (-) TimerEvent: {}
+[23.341025] (-) TimerEvent: {}
+[23.441471] (-) TimerEvent: {}
+[23.541914] (-) TimerEvent: {}
+[23.642347] (-) TimerEvent: {}
+[23.742813] (-) TimerEvent: {}
+[23.843286] (-) TimerEvent: {}
+[23.943799] (-) TimerEvent: {}
+[24.044295] (-) TimerEvent: {}
+[24.144774] (-) TimerEvent: {}
+[24.245224] (-) TimerEvent: {}
+[24.345681] (-) TimerEvent: {}
+[24.446158] (-) TimerEvent: {}
+[24.546741] (-) TimerEvent: {}
+[24.647226] (-) TimerEvent: {}
+[24.747673] (-) TimerEvent: {}
+[24.848118] (-) TimerEvent: {}
+[24.948570] (-) TimerEvent: {}
+[25.048991] (-) TimerEvent: {}
+[25.149407] (-) TimerEvent: {}
+[25.249923] (-) TimerEvent: {}
+[25.350397] (-) TimerEvent: {}
+[25.450935] (-) TimerEvent: {}
+[25.551364] (-) TimerEvent: {}
+[25.651798] (-) TimerEvent: {}
+[25.752263] (-) TimerEvent: {}
+[25.852726] (-) TimerEvent: {}
+[25.953203] (-) TimerEvent: {}
+[26.053682] (-) TimerEvent: {}
+[26.154126] (-) TimerEvent: {}
+[26.254555] (-) TimerEvent: {}
+[26.355015] (-) TimerEvent: {}
+[26.455479] (-) TimerEvent: {}
+[26.555954] (-) TimerEvent: {}
+[26.656411] (-) TimerEvent: {}
+[26.756858] (-) TimerEvent: {}
+[26.857337] (-) TimerEvent: {}
+[26.957808] (-) TimerEvent: {}
+[27.058263] (-) TimerEvent: {}
+[27.158734] (-) TimerEvent: {}
+[27.259197] (-) TimerEvent: {}
+[27.359669] (-) TimerEvent: {}
+[27.460140] (-) TimerEvent: {}
+[27.560604] (-) TimerEvent: {}
+[27.661056] (-) TimerEvent: {}
+[27.761501] (-) TimerEvent: {}
+[27.861940] (-) TimerEvent: {}
+[27.962411] (-) TimerEvent: {}
+[28.062951] (-) TimerEvent: {}
+[28.163445] (-) TimerEvent: {}
+[28.263979] (-) TimerEvent: {}
+[28.364448] (-) TimerEvent: {}
+[28.464862] (-) TimerEvent: {}
+[28.565287] (-) TimerEvent: {}
+[28.665719] (-) TimerEvent: {}
+[28.766151] (-) TimerEvent: {}
+[28.866572] (-) TimerEvent: {}
+[28.967020] (-) TimerEvent: {}
+[29.067469] (-) TimerEvent: {}
+[29.167972] (-) TimerEvent: {}
+[29.194839] (rslidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rslidar_sdk_node\x1b[0m\n'}
+[29.268108] (-) TimerEvent: {}
+[29.368616] (-) TimerEvent: {}
+[29.469178] (-) TimerEvent: {}
+[29.569732] (-) TimerEvent: {}
+[29.670237] (-) TimerEvent: {}
+[29.763457] (rslidar_sdk) StdoutLine: {'line': b'[100%] Built target rslidar_sdk_node\n'}
+[29.770341] (-) TimerEvent: {}
+[29.772544] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[29.774390] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'install'}
+[29.775572] (rslidar_sdk) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk'], 'cwd': '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'caros'), ('LC_TIME', 'zh_CN.UTF-8'), ('SSH_AGENT_PID', '1863015'), ('ROS_PACKAGE_PATH', '/opt/ros/foxy/share'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp/lib:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/opt/Qt5.15.2/5.15.2/gcc_64/lib:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/local/cuda-12.1/lib64:/home/caros/anaconda3/lib'), ('HOME', '/home/caros'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/caros/DEV/ROS_DEV'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '2243'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('CPLUS_INCLUDE_PATH', '/usr/local/include/eigen3:'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_dev/install'), ('ROS_DISTRO', 'foxy'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'caros'), ('JOURNAL_STREAM', '8:37008'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'caros'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/Qt5.15.2/5.15.2/gcc_64/bin:/home/caros/anaconda3/condabin:/usr/local/cuda-12.1/bin:/home/caros/.cargo/bin:/home/caros/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/caros-P920:@/tmp/.ICE-unix/2640,unix/caros-P920:/tmp/.ICE-unix/2640'), ('INVOCATION_ID', '487707bb09c8451fb1908157f3fc8b68'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/a1b3ef2e_6a72_4f9d_ad7c_7cdce56449fb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AUTH_SOCK', '/tmp/ssh-pja3QrrYMAV8/agent.1863014'), ('AMENT_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/opt/ros/foxy'), ('CONDA_PYTHON_EXE', '/home/caros/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/build/rslidar_sdk'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/caros/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors/lib/python3.8/site-packages:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_msg:/home/caros/DEV/ROS_DEV/ros2_dev/install/more_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/tutorial_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/turtlesim:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_multithreaded_executor:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_timer:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_composition:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclcpp_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/cpp_parameters:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_cpp:/home/caros/DEV/ROS_DEV/ros2_dev/install/action_tutorials_interfaces:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_pubsub:/home/caros/DEV/ROS_DEV/ros2_dev/install/py_srvcli:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_subscriber:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_service:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_publisher:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_server:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_minimal_action_client:/home/caros/DEV/ROS_DEV/ros2_dev/install/examples_rclpy_executors:/opt/ros/foxy')]), 'shell': False}
+[29.785242] (rslidar_sdk) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[29.785599] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node\n'}
+[29.788738] (rslidar_sdk) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""\n'}
+[29.789004] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/launch\n'}
+[29.789213] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py\n'}
+[29.789475] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/launch/start.py\n'}
+[29.789661] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch\n'}
+[29.789901] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/rviz\n'}
+[29.790216] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz\n'}
+[29.790423] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz\n'}
+[29.790604] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk\n'}
+[29.790807] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk\n'}
+[29.791044] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh\n'}
+[29.791340] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv\n'}
+[29.791600] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh\n'}
+[29.791783] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv\n'}
+[29.791963] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash\n'}
+[29.792230] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh\n'}
+[29.792406] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh\n'}
+[29.792604] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv\n'}
+[29.792784] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/package.dsv\n'}
+[29.792962] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk\n'}
+[29.793236] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake\n'}
+[29.793423] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake\n'}
+[29.793613] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/caros/DEV/ROS_DEV/ros2_lidar_navigation/install/rslidar_sdk/share/rslidar_sdk/package.xml\n'}
+[29.795532] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[29.824808] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 0}
+[29.826109] (-) EventReactorShutdown: {}
